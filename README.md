@@ -1,2 +1,0 @@
-Acreditamos que a nossa relação com os animais e a natureza é a base da nossa existência. O ar que respiramos, a água que bebemos e os alimentos que consumimos vêm de ecossistemas saudáveis. No entanto, a vida selvagem, seus habitats e até os nossos companheiros de quatro patas estão ameaçados por fatores como o abandono, a poluição e as alterações climáticas.
-O objetivo deste site é educar e inspirar. Vamos mostrar não apenas os problemas, mas também as soluções, destacando a importância de proteger os animais e a natureza para garantir um futuro sustentável para todos.
