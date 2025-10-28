@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+section#corpo-artigo h2{
+    font-family: 'Ysabeau Infant', sans-serif, ;
+    color: #302626;
+    font-size: 15pt;
+    padding: 1px;
+    margin-top: 0px;
+    text-align: justify;
+
+}
