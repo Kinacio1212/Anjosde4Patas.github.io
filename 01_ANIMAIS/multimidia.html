@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MULTIMÍDIA</title>
+        <link rel="shortcut icon" href="_icon/pata1.png" type="image/x-icon">
+        <link rel="stylesheet" href="_css/multi.css">
+        <link rel="stylesheet" href="_css/style.css">
+    </head>
+    <script language="javascript" src="_javascript/funcoes.js"></script><!--Ajuda a mudar foto-->
+
+    <body>
+        <div id="interface">
+            <header id="cabecalho">  
+                <hgroup> 
+                   <h1>Anjos de 4 Patas</h1>
+                   <h2>O Nosso Vínculo com os Animais e a Natureza</h2>
+               </hgroup>
+     
+               <img id="icone" src="_img/multi3.gif">
+     
+               <nav id="menu">
+                 <h1>MENU PRINCIPAL</h1>
+     
+               <ul type="disc">
+                <li onmouseover="mudaFoto('_img/home2.gif')" onmouseout="mudaFoto('_img/home2.gif')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('_img/infor2.gif')" onmouseout="mudaFoto('_img/infor2.gif')"><a href="especificacoes.html">Especificações</a></li>
+                <li onmouseover="mudaFoto('_img/foto3.gif')" onmouseout="mudaFoto('_img/foto3.gif')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('_img/multi3.gif')" onmouseout="mudaFoto('_img/multi3.gif')"><a href="multimidia.html">Multimídia</a></li>
+                <li class="dropdown" onmouseover="mudaFoto('_img/documento1.gif')" onmouseout="mudaFoto('_img/documento1.gif')"><a href="sobre-nos.html" class="dropbtn">Sobre nós</a>
+                     <span class="menu-icon">⋮</span> <!-- ícone de três pontinhos ou &#9776;-->
+                 <ul class="dropdown-content">
+                 <li onmouseover="mudaFoto('_img/documento1.gif')" onmouseout="mudaFoto('_img/documento1.gif')"><a href="termos.html">Termos</a></li>
+                 <li onmouseover="mudaFoto('_img/documento1.gif')" onmouseout="mudaFoto('_img/documento1.gif')"><a href="privacidade.html">Privacidade</a></li>
+                </ul>
+                 </li>
+
+               </ul>
+               </nav>
+             </header>
+
+             <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>Multimídia > Bem-estar</h3><!--</br> quebra de linhas e &nbsp;-->
+                            <h1>Adote, cuide e preserve o meio ambiente</h1>
+                            <h2>Por Ketlyn Inácio</h2>
+                            <h3 class="direita">Atualizado em 28/10/2025</h3>
+                        </hgroup>
+                        </header>
+                  </article>
+                
+                <div id="tv-radio">
+            <audio id="musica" controls="controls">
+                <source src="_media/Meu Cachorro Fiel.mp3" type="audio/mpeg"/>
+                Desulpe, mas não foi possível carregar o áudio
+            </audio>
+                <video id="filme" controls="controls" poster="_img/mini-video1.jpg">
+                   <source src="_media/adote2.mp4" type="video/mp4"/>
+                    Desulpe, mas não foi possível carregar o vídeo
+                </video>
+         </div>
+
+             </section>
+             <footer id="rodape">
+                <p>Copyright &copy; 2025 - Ketlyn Inácio! <br>
+                <a href="mailto:ketlynsi.silvainacio@gmail.com" target="_blank">📧E-mail</a> |
+                <a href="https://www.instagram.com/ketlyn.inacio?igsh=MW00MnhwYmk1aWt2OA==" target="_blank">📸Instagram</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
